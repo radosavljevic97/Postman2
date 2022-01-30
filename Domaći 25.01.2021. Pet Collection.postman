@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "0675c978-5d48-44fb-8420-b4b37535c817",
+		"name": "Pet Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Pet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find Pet By ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update pet",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Pet",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Place order for pet",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Find order by ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
